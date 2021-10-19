@@ -21,8 +21,8 @@ time.sleep(2)
 
 class bot:
     def login():
-        usern = browser.find_element_by_name("username").send_keys("404anarchy")
-        passw = browser.find_element_by_name("password").send_keys("eaglesoftware0044")
+        usern = browser.find_element_by_name("username").send_keys("")
+        passw = browser.find_element_by_name("password").send_keys("")
         lgnbtn = browser.find_element_by_css_selector("#loginForm > div > div:nth-child(3) > button")
         lgnbtn.click()
         time.sleep(3)
