@@ -11,15 +11,15 @@ colorama.init(autoreset=True)
 
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
-browser = webdriver.Chrome(executable_path=r'C:\Users\Abdullah Kartal\AppData\Local\Programs\Python\Python38\chromedriver.exe', options=options)
+browser = webdriver.Chrome(executable_path=r'', options=options)
 
 browser.get("https://www.instagram.com/accounts/login/")
 time.sleep(2)
 
 class bot:
     def login():
-        usern = browser.find_element_by_name("username").send_keys("404anarchyeagle")
-        passw = browser.find_element_by_name("password").send_keys("owndegl00asd")
+        usern = browser.find_element_by_name("username").send_keys("")
+        passw = browser.find_element_by_name("password").send_keys("")
         lgnbtn = browser.find_element_by_css_selector("#loginForm > div > div:nth-child(3) > button")
         lgnbtn.click()
         time.sleep(3)
