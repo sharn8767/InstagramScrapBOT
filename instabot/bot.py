@@ -12,7 +12,7 @@ colorama.init(autoreset=True)
 
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
-browser = webdriver.Chrome(executable_path=r'C:\Users\eagle\AppData\Local\Programs\Python\Python39\chromedriver.exe', options=options)
+browser = webdriver.Chrome(executable_path=r'', options=options)
 
 
 soru = input("Select Mode: ")
